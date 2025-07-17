@@ -12,7 +12,16 @@ body {
     background-repeat: no-repeat, repeat;
 }
  button{
-    display: black;
+        display: block;
+        margin-top:35px ;
+        padding: 10px;
+        width: 90%;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background-color: hsl(224, 30%, 27%);
+        color: white;
+        border-radius: 10px;
  }
 .main-contener .section-one {
     background: linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
