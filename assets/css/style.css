@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", sans-serif;
+    overflow: hidden;
+}
+
+body {
+    background-repeat: no-repeat, repeat;
+}
+ button{
+    display: none;
+ }
+.main-contener .section-one {
+    background: linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+
+    border-bottom-left-radius: 3em;
+    border-bottom-right-radius: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 60vh;
+    gap: 40px;
+}
+
+.main-contener .section-one .Result {
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.main-contener .section-one .score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(to top, hsla(241, 72%, 46%, 0), hsla(256, 72%, 46%, 1));
+    /* test gradient */
+
+}
+
+.main-contener .section-one .score h1 {
+    color: white;
+    font-size: 35px;
+}
+
+.main-contener .section-one .score .header-p {
+    color: rgba(245, 245, 245, 0.623);
+}
+
+.main-contener .section-one .bottom p.head-one {
+    color: white;
+    font-size: 19px;
+    margin: 10px;
+}
+
+.main-contener .section-one .bottom p.head-two {
+    color: white;
+}
+
+.main-contener .section-two .header {
+    color: black;
+    font-weight: 100;
+    width: 100%;
+    display: flex;
+    margin-left: 20px;
+}
+
+.main-contener .section-two .header p {
+    font-weight: 300;
+    margin: 10px;
+}
+
+.main-contener .section-two .body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* hollder one */
+.main-contener .section-two .body .data-hollder-one {
+    padding: 10px;
+    width: 90%;
+    background-color: rgba(243, 122, 122, 0.075);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: .3em;
+    margin-top: 10px;
+}
+
+.main-contener .section-two .body .data-hollder-one .set,
+.main-contener .section-two .body .data-hollder-two .set,
+.main-contener .section-two .body .data-hollder-three .set,
+.main-contener .section-two .body .data-hollder-four .set {
+    display: flex;
+    gap: 10px;
+}
+
+.main-contener .section-two .body .data-hollder-one .set p {
+    color: hsl(0, 100%, 67%);
+}
+
+.main-contener .section-two .body .data-hollder-one .end span {
+    color: #707070;
+}
+
+/* hollder one end */
+
+/* HOllder two start*/
+.main-contener .section-two .body .data-hollder-two {
+    padding: 10px;
+    width: 90%;
+    background-color: hsla(39, 100%, 56%, 0.075);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: .3em;
+    margin-top: 10px;
+}
+
+.main-contener .section-two .body .data-hollder-two .set p {
+    color: hsl(39, 100%, 56%);
+}
+
+.main-contener .section-two .body .data-hollder-two .end span {
+    color: #707070;
+}
+
+/* three start */
+.main-contener .section-two .body .data-hollder-three {
+    padding: 10px;
+    width: 90%;
+    background-color: hsla(166, 100%, 37%, 0.075);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: .3em;
+    margin-top: 10px;
+}
+
+.main-contener .section-two .body .data-hollder-three .set p {
+    color: hsl(166, 100%, 37%);
+}
+
+.main-contener .section-two .body .data-hollder-three .end span {
+    color: #707070;
+}
+
+/* three end */
+
+.main-contener .section-two .body .data-hollder-four {
+    padding: 10px;
+    width: 90%;
+    background-color: hsla(234, 85%, 45%, 0.075);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: .3em;
+    margin-top: 10px;
+}
+
+.main-contener .section-two .body .data-hollder-four .set p {
+    color: hsl(234, 85%, 45%);
+}
+
+.main-contener .section-two .body .data-hollder-four .end span {
+    color: #707070;
+}
+
+/* 1024 */
+@media (min-width: 1024px) {
+    body {
+        background-color: hsl(0, 0%, 100%);
+    }
+    button{
+        display: block;
+        margin-top:35px ;
+        padding: 10px;
+        width: 90%;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background-color: hsl(224, 30%, 27%);
+        color: white;
+        border-radius: 10px;
+    }
+    button:hover{
+        background: linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+    }
+    .main-contener {
+        background-color: hsl(221, 100%, 96%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .holder-contener {
+        display: flex;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 1em;
+        width: 40%;
+        height: 6s0vh;
+    }
+
+    .main-contener .holder-contener .section-one {
+        border-radius: 1em;
+        width: 100%;
+    }
+
+    .main-contener .holder-contener .section-one .bottom .head-two {
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.637);
+    }
+
+    .main-contener .holder-contener .section-two {
+        width: 100%;
+    }
+    .main-contener .holder-contener .section-two .header{
+        margin-top: 20px;
+    }
+    .body{
+        margin-top: 30px;
+    }
+
+
+}
