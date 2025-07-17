@@ -12,7 +12,7 @@ body {
     background-repeat: no-repeat, repeat;
 }
  button{
-    display: none;
+    display: black;
  }
 .main-contener .section-one {
     background: linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
